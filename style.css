@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arsenal", sans-serif;
+}
+
+#PlayersPage {
+
+    background-image: url("PSG\ Logo.jpg");
+    background-size: cover;
+}
+
+.b h1 {
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    font-family: "Arsenal", sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.b h1:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.b a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.b a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+body {
+    font-family: "Arsenal", sans-serif;
+    color: #272829;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arsenal", sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+    background-image: url("assets/Players/Main\ Image.jpg");
+    background-size: cover;
+}
+
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#hero h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Arsenal", sans-serif;
+}
+
+#hero p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #ff5874;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background: #f5f8fd;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #000000;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ff5874;
+    bottom: 0;
+    left: 0;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+.player .player-item {
+    margin-bottom: 30px;
+}
+
+.players {
+    height: 320px;
+    width: 520px;
+}
+
+nav
+{
+
+    
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px 8%;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    
+
+}
+
+
+
+nav ul li
+{
+    
+    
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: justify;
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    
+}
+
+nav ul li a:hover
+{
+    
+    color: black;
+    background-color: white;
+}
+
+p {
+    color: #000000;
+    font-family: "Arsenal", sans-serif;
+    font-size:x-large;
+    font-weight: 200px;
+}
+
+#AchivementsPara{
+    color: #000000;
+    font-family: "Arsenal", sans-serif;
+    font-size:xx-large;
+    font-weight: 250px;
+}
